@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RadioButton" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sa7-kG-tLa" customClass="AKRadioButton" customModule="RadioButton" customModuleProvider="target">
+                                <rect key="frame" x="16" y="28" width="250" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="zfg-fL-dOZ"/>
+                                </constraints>
+                                <state key="normal" title="Button 1"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GFZ-BE-nTV" customClass="AKRadioButton" customModule="RadioButton" customModuleProvider="target">
+                                <rect key="frame" x="16" y="66" width="250" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="zuo-Pg-NxZ"/>
+                                </constraints>
+                                <state key="normal" title="Button 2"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ziy-CG-r7F" customClass="AKRadioButton" customModule="RadioButton" customModuleProvider="target">
+                                <rect key="frame" x="16" y="104" width="250" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="GQk-mW-SRq"/>
+                                </constraints>
+                                <state key="normal" title="Button 3"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dh4-7l-yjZ" customClass="AKRadioButton" customModule="RadioButton" customModuleProvider="target">
+                                <rect key="frame" x="16" y="142" width="250" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="OpW-pg-u2B"/>
+                                </constraints>
+                                <state key="normal" title="Button 4"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VWD-mQ-2bf" customClass="AKRadioButton" customModule="RadioButton" customModuleProvider="target">
+                                <rect key="frame" x="16" y="218" width="250" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="ZfF-DE-4fj"/>
+                                </constraints>
+                                <state key="normal" title="Button 6"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZF0-u8-RtV" customClass="AKRadioButton" customModule="RadioButton" customModuleProvider="target">
+                                <rect key="frame" x="16" y="180" width="250" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="e0c-x7-HhQ"/>
+                                </constraints>
+                                <state key="normal" title="Button 5"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Owo-pi-fPS" customClass="AKRadioButton" customModule="RadioButton" customModuleProvider="target">
+                                <rect key="frame" x="16" y="294" width="250" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="uI2-hb-9ci"/>
+                                </constraints>
+                                <state key="normal" title=" Button 8"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GJI-jK-wau" customClass="AKRadioButton" customModule="RadioButton" customModuleProvider="target">
+                                <rect key="frame" x="16" y="256" width="250" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="vkZ-cs-3H8"/>
+                                </constraints>
+                                <state key="normal" title="Button 7"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7oY-Sn-BHD">
+                                <rect key="frame" x="16" y="332" width="343" height="30"/>
+                                <state key="normal" title="Selected index"/>
+                                <connections>
+                                    <action selector="selectedIndex:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2P4-RZ-Fgd"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="7oY-Sn-BHD" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="0q3-MI-tXJ"/>
+                            <constraint firstItem="GFZ-BE-nTV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="2y6-rI-Ucd"/>
+                            <constraint firstItem="Owo-pi-fPS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="8XX-bz-188"/>
+                            <constraint firstItem="Ziy-CG-r7F" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="AGm-0g-dy4"/>
+                            <constraint firstItem="VWD-mQ-2bf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="EDF-ed-AcJ"/>
+                            <constraint firstItem="Owo-pi-fPS" firstAttribute="top" secondItem="GJI-jK-wau" secondAttribute="bottom" constant="8" id="Exy-Hg-Pus"/>
+                            <constraint firstItem="ZF0-u8-RtV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Fls-6k-Jd0"/>
+                            <constraint firstItem="GJI-jK-wau" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="GZX-Md-Ls9"/>
+                            <constraint firstItem="GFZ-BE-nTV" firstAttribute="top" secondItem="Sa7-kG-tLa" secondAttribute="bottom" constant="8" id="HoE-0r-UYB"/>
+                            <constraint firstItem="Sa7-kG-tLa" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="IcE-bY-yL1"/>
+                            <constraint firstItem="Ziy-CG-r7F" firstAttribute="top" secondItem="GFZ-BE-nTV" secondAttribute="bottom" constant="8" id="J35-nM-HgV"/>
+                            <constraint firstItem="7oY-Sn-BHD" firstAttribute="top" secondItem="Owo-pi-fPS" secondAttribute="bottom" constant="8" symbolic="YES" id="J7p-XO-XcB"/>
+                            <constraint firstItem="dh4-7l-yjZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="M8n-bu-6RW"/>
+                            <constraint firstItem="Sa7-kG-tLa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="PVi-TW-VKI"/>
+                            <constraint firstItem="7oY-Sn-BHD" firstAttribute="leading" secondItem="Owo-pi-fPS" secondAttribute="leading" id="Qyf-2K-kGL"/>
+                            <constraint firstItem="ZF0-u8-RtV" firstAttribute="top" secondItem="dh4-7l-yjZ" secondAttribute="bottom" constant="8" id="hBJ-1a-7Md"/>
+                            <constraint firstItem="dh4-7l-yjZ" firstAttribute="top" secondItem="Ziy-CG-r7F" secondAttribute="bottom" constant="8" id="uca-45-0zw"/>
+                            <constraint firstItem="GJI-jK-wau" firstAttribute="top" secondItem="VWD-mQ-2bf" secondAttribute="bottom" constant="8" id="wpJ-Jy-65J"/>
+                            <constraint firstItem="VWD-mQ-2bf" firstAttribute="top" secondItem="ZF0-u8-RtV" secondAttribute="bottom" constant="8" id="ygf-Up-3Qu"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outletCollection property="radioButtons" destination="Sa7-kG-tLa" collectionClass="NSMutableArray" id="Eyw-Tk-BM8"/>
+                        <outletCollection property="radioButtons" destination="GFZ-BE-nTV" collectionClass="NSMutableArray" id="1qj-do-oRa"/>
+                        <outletCollection property="radioButtons" destination="Ziy-CG-r7F" collectionClass="NSMutableArray" id="4T6-uR-Udl"/>
+                        <outletCollection property="radioButtons" destination="dh4-7l-yjZ" collectionClass="NSMutableArray" id="P5A-Il-Kda"/>
+                        <outletCollection property="radioButtons" destination="ZF0-u8-RtV" collectionClass="NSMutableArray" id="85Z-Up-ZWG"/>
+                        <outletCollection property="radioButtons" destination="VWD-mQ-2bf" collectionClass="NSMutableArray" id="y9M-g6-0Tc"/>
+                        <outletCollection property="radioButtons" destination="GJI-jK-wau" collectionClass="NSMutableArray" id="JtZ-JQ-QHO"/>
+                        <outletCollection property="radioButtons" destination="Owo-pi-fPS" collectionClass="NSMutableArray" id="DRb-Qk-A3S"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="116" y="122.78860569715144"/>
+        </scene>
+    </scenes>
+</document>
